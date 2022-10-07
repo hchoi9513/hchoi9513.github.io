@@ -43,12 +43,12 @@ h2 {
 h3 {
 	margin: 3rem 1rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 0.5rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: rgb(171, 27, 21);
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: 3 px solid rgb(171, 27, 21);
+	border-top: 3px solid rgb(171, 27, 21);
 }
 
 h4 {
