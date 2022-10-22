@@ -1,0 +1,185 @@
+<!doctype html>  
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" type="text/css" href="https://grc-ribeiro.github.io/files/proposal.css">  <!-- Leave this line as is. -->
+        <title>Hailey - Final project proposal</title>
+        <!--please change Your Name to your name-->
+    </head>
+    <body>
+    
+        <div class="container">
+        
+            <h1>Final project proposal</h1>
+            
+            <h2>Introduction</h2>
+            
+            <p>Heliophilia Eyewear</p>
+            
+            <p>Heliophilia is a high-end sunglasses brand that captures the marriage of beauty and functionality in our classic but edgy designs. Heliophilia products elevate simplicity with unique shapes and creative usage of materials.</p><!--Short description of the company-->
+            
+            <h2>Target audience</h2>
+            
+            <p>Our company will target the young adult to middle-aged adult demographic, ages ranging from 19 to 60 years, and those of all genders. We expect our consumer base to have a fairly affluent lifestyle and/or values quality purchases.</p><!-- Who are the people who use this site? -->
+           
+            <p>Users of this site will be searching/shopping for a pair of sunglasses that firstly, have premium-quality UV resistance, but secondly, make a refreshing style statement while achieving their minimalist style prefences. </p><!-- What are their primary task and goals? -->
+            
+           
+            <h2>Comparative analysis</h2>
+        
+            <h3>Gentle Monster</h3>
+           
+            <p><a href="https://www.gentlemonster.com/us/">GentleMonster.com</a></p> 
+            
+            <img src="gentlemonster.png" alt="Screenshot of the Home page of the Gentle Monster website." title="" />
+            
+            <img src="gentlemonster(2).png" alt="Screenshot of the Contemporary Sunglasses Collection page of the Gentle Monster website." title="" />
+
+           
+            <h3>Stephane Christian</h3>
+           
+            <p><a href="https://en.stephane-christian.com/index.html">Stephane-Christian.com</a></p> 
+            
+            <img src="stephanechristian.png" alt="Screenshot of the Home page of the Stephane Christian website." title="" />
+            
+            <img src="stephanechristian(2).png" alt="Screenshot of the Aboust Us page of the Stephane Christian website." title="" />
+
+
+            <h3>Manamos</h3>
+           
+            <p><a href="https://en.manomos.com/index.html">Manamos.com</a></p> 
+            
+            <img src="manamos.png" alt="Screenshot of the Home page of the Manamos website." title="" />
+            
+            <img src="manamos(2).ong.png" alt="Screenshot of the Sunglasses page of the Manamos website." title="" />
+
+
+            <h2>Website content</h2>
+           
+           
+           
+           <nav>
+                 <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Products</li>
+                    <li>Store</li>
+                </ul>
+            </nav>
+            
+            <section>
+            
+					<h1>Home</h1>
+				
+					<p>We are Heliophilous.</p>
+			  
+					<p>[Editorial photo of model wearing Heliophilia sunglasses]</p>
+				
+            </section>
+            
+            <section>
+            
+					<h1>About</h1>
+				
+					<p>Heliophilia was established in 2014 in order to create unique eyewear for those looking for classic but edgy designs. We view our pieces as art and are thus, artistic expressions of their wearer.</p><!-- This is a placeholder! Change it to the actual content of your page. -->
+			  
+					<p>[Heliophilia sunglasses displayed on marble table top]</p>
+				
+            </section>
+
+            <section>
+                
+                <h1>Products</h1>
+
+                <ul>
+
+                    <li>Aurora</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$245.00</p>
+
+
+                    <li>Mist C3</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$245.00</p>
+                        
+
+                    <li>Sunday Blues</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$245.00</p>
+
+
+                    <li>Clarisse</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$245.00</p>
+
+
+                    <li>Bisou</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$225.00</p>
+
+
+                    <li>Amber</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$225.00</p>
+
+
+                    <li>Midnight Rain</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$225.00</p>
+
+
+                    <li>Sole C3</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$215.00</p>
+
+
+                    <li>Voice C2</li>
+
+                    <p>[sunglasses front view]</p>
+
+                    <p>$215.00</p>
+
+
+                </ul>
+                    
+
+            </section>
+
+            <section>
+
+
+                <h1>Store</h1>
+				
+                <li>New York Location</li>
+                <p>2705 Rosewood Ln. New York, NY 10014</p><!-- This is a placeholder! Change it to the actual content of your page. -->
+                <p>[New York location storefront]</p>
+
+                <li>Beverly Hills Location</li> 
+                <p>18 Libby St. Beverly Hills, CA 90210</p><!-- This is a placeholder! Change it to the actual content of your page. -->
+                <p>[Beverly Hills location storefront]</p>
+
+                
+        </section>
+
+            
+        
+        </div>
+    </body>
+</html>
