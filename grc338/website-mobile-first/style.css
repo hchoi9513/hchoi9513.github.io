@@ -6,7 +6,7 @@ img {
     width: 100%; 
     display: block;
     max-width: 80em;
-    margin: 2rem; 
+    padding: 4rem;
     
 }
 
@@ -22,7 +22,7 @@ div.container{
 }
 
 nav ul{
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 nav ul li {
@@ -70,7 +70,6 @@ li.location{
     letter-spacing: 0.05em;
 }
 
-
 h2{
     margin: 4rem 1rem 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,7 +77,6 @@ h2{
     font-size: 1.5rem;
     letter-spacing: 0.07em;
 }
-
 
 h3{
     display: grid;
@@ -94,13 +92,14 @@ h3{
 
 .wrapper{
   display: grid;
+  margin-left: 0rem;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 25px;
   grid-row-gap: 25px;
 }
 
 .wrapper > div img{
     max-height: 100%;
+    margin-left: 0rem;
 }
 
 p { 
