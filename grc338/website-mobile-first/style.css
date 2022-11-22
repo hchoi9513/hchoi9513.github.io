@@ -23,6 +23,7 @@ body {
 }
 nav ul {
   padding-left:2rem;
+  max-width: 30em;
 }
 nav ul li {
   display:inline;
