@@ -1,128 +1,122 @@
 /*CSS DOCUMENT*/
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
-
+html,body,div,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+}
 img {
-    width: 100%; 
-    display: block;
-    max-width: 80em;
-    padding: 4rem;
-    
+  width:100%;
+  display:block;
 }
-
 body {
-    background-color:#1e1e1e;
-    color:#fafafa;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;    
+  background-color:#1e1e1e;
+  color:#fafafa;
+  font-family:Verdana,Geneva,Tahoma,sans-serif;
+  font-weight:500;
 }
-
-div.container{
-    max-width: 80em;
+.container {
+  max-width:30em;
+  margin:auto;
 }
-
-nav ul{
-    padding-left: 2rem;
+nav ul {
+  padding-left:2rem;
 }
-
 nav ul li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 3rem;
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+  display:inline;
+  list-style-type:none;
+  margin-right:3rem;
+  font-family:poppins,sans-serif;
+  font-weight:400;
+  font-size:1rem;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+}
+nav ul li a {
+  color:#fafafa;
+  text-decoration:none;
+}
+.intro {
+  font-size:1.5rem;
+  text-align:justify;
+  padding:3rem;
+  padding-left:2rem;
+  letter-spacing:0.08em;
+}
+a:hover {
+  color:cornflowerblue;
+}
+ul {
+  list-style-type:none;
+  margin:2rem 1rem;
+}
+ul li img {
+  margin-left:2rem;
+  margin-bottom:1rem;
+  max-height:80%;
+  max-width:80%;
 }
 
-nav ul li a{
-    color: #fafafa;
-    text-decoration: none;
+.location {
+  margin-top:2rem;
+  margin-left:auto;
+  list-style-type:none;
+  margin-bottom:1rem;
+  font-family:Verdana,Geneva,Tahoma,sans-serif;
+  font-weight:500;
+  font-style:italic;
+  font-size:1.7rem;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
 }
-
-a:hover{
-    color: cornflowerblue;
+h2 {
+  margin:1rem;
+  font-family:Verdana,Geneva,Tahoma,sans-serif;
+  font-weight:500;
+  font-size:1.5rem;
+  letter-spacing:0.07em;
 }
-
-ul{
-    list-style-type: none;
-    margin-top: 2rem;
+h3 {
+  display:grid;
+  margin-left:2rem;
+  margin-bottom:1rem;
+  font-family:Verdana,Geneva,Tahoma,sans-serif;
+  font-weight:500;
+  font-size:1.7rem;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
 }
-
-ul li img{
-    margin: 0.5rem 1rem;
-    max-height: 80%;
-    max-width: 80%;
+.wrapper {
+  display:grid;
+  max-width:80%;
+  padding:1rem;
+  grid-template-columns:repeat(2,1fr);
+  grid-row-gap:25px;
 }
-
-li.location{
-    margin-top: 2rem;
-    margin-left: 3rem;
-    list-style-type: none;
-    display: grid;
-    margin-bottom: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+.wrapper > div img {
+  max-height:100%;
+  margin-left:0rem;
 }
-
-h2{
-    margin: 4rem 1rem 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    letter-spacing: 0.07em;
+p {
+  margin:1rem;
+  max-width:80%;
+  font-family:Verdana,Geneva,Tahoma,sans-serif;
+  font-style:italic;
+  font-weight:300;
+  letter-spacing:0.06em;
 }
-
-h3{
-    display: grid;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-bottom: dashed;
+.price {
+  font-family:'Courier New',Courier,monospace;
+  font-size:1rem;
+  font-weight:lighter;
+  margin-left:2rem;
+  margin-bottom:2rem;
 }
-
-.wrapper{
-  display: grid;
-  margin-left: 0rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 25px;
+.address {
+  font-family:'Courier New',Courier,monospace;
+  font-size:1rem;
+  font-weight:lighter;
+  margin-bottom:3rem;
 }
-
-.wrapper > div img{
-    max-height: 100%;
-    margin-left: 0rem;
-}
-
-p { 
-    margin: 1rem 1rem 1rem 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    letter-spacing: 0.06em;
-}
-
-p.price{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-}
-
-p.address{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
-}
-
