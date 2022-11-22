@@ -23,10 +23,9 @@ body {
 }
 nav ul {
   padding-left:2rem;
-  max-width: 30em;
 }
+
 nav ul li {
-  display:inline;
   list-style-type:none;
   margin-right:3rem;
   font-family:poppins,sans-serif;
