@@ -127,13 +127,23 @@ div.container-products ul li img{
     margin-bottom: 0.8rem;
 }
 
-figcaption{
+h4{
     text-align: center;
-    
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.5rem;
+
+    font-family: poppins, sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.08em;
 }
 
+figcaption{
+    text-align: center;
+    padding-top: 0.5rem;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
 
 /*style: location*/
 div.container-locations ul li{
