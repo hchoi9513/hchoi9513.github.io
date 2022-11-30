@@ -1,0 +1,208 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+/*all pages*/
+img {
+    width: 100%; /*Leave this line.*/
+    display: block;
+}
+
+body {
+    background-color:#1e1e1e;
+    color:#fafafa;    
+}
+
+div.container{
+    margin: auto;
+}
+
+header{
+    grid-column: 1/2;
+    padding: 2rem;
+    align-content: center;
+}
+
+nav ul{
+    padding-left: 2rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 5rem;
+    
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+nav ul li a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(179 176 168);
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+    
+    font-size: 0.8rem;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.3em
+
+}
+
+
+/*style: home*/
+div.container-intro{
+    background-color: rgb(179 176 168);
+    color: #1e1e1e;
+    display: grid;
+    margin-top: 4rem;
+    
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 3fr;
+    align-items: center;
+}
+
+p{
+    grid-column: 1/2;
+    text-align: left;
+    padding: 2rem 2rem;
+
+    font-size: 3rem;
+    font-style: italic;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.08em; 
+}
+
+
+/*style: about*/
+h3{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0rem 3rem 0.5rem;
+
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+div.wrapper{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    grid-template-rows: 3fr;  
+}
+
+
+/*style: products*/
+div.container-products ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr); 
+    grid-column-gap: 0.5rem;
+    margin: 2rem 1rem 0.5rem;
+}
+
+div.container-products ul li{
+    list-style-type: none;
+}
+
+div.container-products ul li img{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0.2rem;
+    padding-top: 0.5rem;
+
+    font-family: poppins, sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.08em;
+}
+
+figcaption{
+    text-align: center;
+    padding-top: 0.5rem;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+
+/*style: location*/
+div.container-locations ul li{
+    margin: 3rem 2rem;
+    text-align: center;
+    list-style-type: none;
+
+    color: rgb(179 176 168);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+    font-style: bold;
+    letter-spacing: 0.08em;
+}
+
+div.container-locations ul li p{
+    text-align: center;
+    padding: 0.5rem 0rem;
+
+    color: #fafafa;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+@media (min-width: 250px){
+/*mobile first*/
+
+    div.container{
+        display: block;
+    }
+
+    div.container-intro{
+        background-color: rgb(179 176 168);
+        color: #1e1e1e;
+        display: grid;
+        margin-top: 4rem;
+        
+        grid-template-columns: 3fr;
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+    }
+    
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+
+        font-size: 1.5rem;
+    }
+
+    p{
+      font-size: 2rem;  
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+
+    figcaption{
+        font-size: 0.8rem;
+    }
+}
