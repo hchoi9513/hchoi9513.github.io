@@ -198,7 +198,7 @@ div.container-locations ul li p{
     }
     
     p{
-      font-size: 1rem; 
+      font-size: 1.7rem; 
       max-width: 30rem; 
       max-height: 40;
     }
@@ -251,11 +251,4 @@ div.container-locations ul li p{
     }
 
 }
-
-@media (min-width: 800px){
-    p{
-        font-size: 1.7rem;
-    }
-}
-
 
