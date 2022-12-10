@@ -1,0 +1,261 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+/*all pages*/
+img {
+    width: 100%; /*Leave this line.*/
+    display: block;
+}
+
+body {
+    background-color:#1e1e1e;
+    color:#fafafa;    
+}
+
+div.container{
+    margin: auto;
+}
+
+h1{
+    grid-column: 1/3;
+    margin: auto;
+    padding: 2rem;
+    max-width: 25rem;
+}
+
+
+nav ul{
+    text-align: center;
+    margin: auto;
+}
+
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 1.5rem;
+    
+    
+    font-family: sofia-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+nav ul li a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(179 176 168);
+}
+
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+    
+    font-size: 0.8rem;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.3em
+
+}
+
+
+/*style: home*/
+div.container-intro{
+    background-color: rgb(179 176 168);
+    color: #1e1e1e;
+    margin-top: 4rem;
+
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+}
+
+p{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 1rem 2rem 1rem;
+    max-width: 30rem;
+
+    font-family: lust-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0.08em; 
+}
+
+
+/*style: about*/
+h3{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0rem 3rem 0.5rem;
+    max-width: 30rem;
+
+    font-family: lust-sans,sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em
+}
+
+div.wrapper{
+    margin-top: 3rem;
+    display: block;  
+}
+
+
+/*style: products*/
+div.container-products ul{
+    display: grid;
+    grid-template-rows: repeat(9,0.5fr);
+    
+    padding: 1rem 5rem;
+}
+
+div.container-products ul li{
+    list-style-type: none;
+    
+}
+
+div.container-products ul li img{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 50rem;
+}
+
+h4{
+    text-align: center;
+    margin: auto auto 0.2rem;
+    padding-top: 0.5rem;
+
+    font-family: lust-sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+}
+
+figcaption{
+    text-align: center;
+    padding-top: 0.5rem;
+    
+    font-family: sofia-pro,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+
+/*style: location*/
+div.container-locations ul li{
+    margin: 3rem 2rem;
+    text-align: center;
+    list-style-type: none;
+    color: rgb(179 176 168);
+    
+    letter-spacing: 0.08em;
+}
+
+div.container-locations ul li h4{
+    font-style: normal;
+
+}
+
+div.container-locations ul li p{
+    text-align: center;
+    padding: 0.5rem 0rem;
+
+    color: #fafafa;
+    font-family: sofia-pro,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+
+@media (min-width: 600px){
+/*expanding to full desktop width*/
+    
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+
+        font-size: 1rem;
+    }
+    
+    p{
+      font-size: 1rem; 
+      max-width: 30rem; 
+      max-height: 40;
+    }
+
+    div.container-intro{
+        display: grid;
+
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: none;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        max-width: 30rem;
+        margin: 3rem auto;
+    }
+
+    div.wrapper{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3,0.5fr);
+        grid-template-rows: 3fr;  
+    }
+
+   
+    div.container-products ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr); 
+        grid-column-gap: 0.5rem;
+    
+        padding: 1rem 5rem;
+    }    
+
+    div.container-locations img{
+        max-height: 50rem;
+    }
+    
+    div.container-locations ul li h4{ 
+        font-size: 2rem;
+        
+    }
+
+    div.container-locations ul li p{
+        text-align: center;
+        margin: auto;
+        max-width: 30rem;
+        font-size: 1.5rem ;
+
+    }
+
+}
+
+@media (min-width: 800px){
+    p{
+        font-size: 1.7rem;
+    }
+}
+
+
