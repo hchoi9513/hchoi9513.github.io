@@ -33,6 +33,7 @@ h3{ /*used in home page list*/
 
 h2{ /*used for main story*/
     font-size: 25pt;
+    line-height: 1.2em;
 }
 
 section p{
