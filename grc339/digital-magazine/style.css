@@ -47,12 +47,6 @@ figcaption{
     font-size: 10pt;
 }
 
-section.teaser-with-image img{
-    width:  40em;
-    height: 30em;
-    object-fit: cover;
-}
-
 div.container {
     max-width: 40em;
     margin: auto;
