@@ -1,0 +1,83 @@
+/*CSS document*/
+
+body {
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+	line-height: 1.6em;
+	color: #222;
+	background-color: #FAF9F6;
+	box-sizing: border-box;
+}
+
+nav ul li a{
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13pt;
+    line-height: 0.3em;
+}
+
+h2 h3{
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h3{ /*used in home page list*/
+    font-size: 16pt;
+    margin-bottom: 0; 
+    color: #D4A373;
+}
+
+h2{ /*used for main story*/
+    font-size: 25pt;
+}
+
+section p{
+    margin-top: 0.4em;
+}
+
+figcaption{
+    font-family: greycliff-cf, sans-serif;
+    line-height: 1.4em;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+section.teaser-with-image img{
+    width:  40em;
+    height: 30em;
+    object-fit: cover;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(80,80,80)
+}
+
+footer{
+    font-family: greycliff-cf, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
