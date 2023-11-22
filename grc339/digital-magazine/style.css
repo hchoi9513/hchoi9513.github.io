@@ -82,6 +82,17 @@ footer{
     font-style: italic;
 }
 
+section.newsletter-link{
+    margin: auto;
+    padding: 2em;
+}
+
+section.newsletter-link h3{
+    color: #222;
+    text-decoration: underline;
+}
+
+
 /*photogallery*/
 div.photogallery{
     margin: auto;
